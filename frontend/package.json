@@ -1,21 +1,16 @@
 {
-  "name": "saythenamealbios-frontend",
+  "name": "stn-frontend",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
+"scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-   "engines": {
+   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
     "node": "22.x"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.0"
-  },
-  "devDependencies": {
-    "vite": "^5.3.1"
-  }
+}
 }
