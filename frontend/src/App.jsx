@@ -1,27 +1,14 @@
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// Import your pages/components
-import Advertisement from "./frontend/Advertisement";
-import Carat from "./frontend/Carat";
-import Collection from "./frontend/Collection";
-import AboutUs from "./frontend/AboutUs";
-
-// Import global styles (if needed)
-import "./index.css"; // not index.js — since this is for styling
-import React from "@vitejs/plugin-react";
+import Advertisement from "./frontend/components/Advertisement";
+import Carat from "./frontend/components/Carat";
+import Collection from "./frontend/components/Collection";
+import AboutUs from "./frontend/components/AboutUs";
 
 function App() {
    return (
     <Router>
-      <nav className="p-4 bg-gray-200 flex gap-4">
-        <Link to="/">Home</Link>
-        <Link to="/carat">Carat</Link>
-        <Link to="/collection">Collection</Link>
-        <Link to="/about">About Us</Link>
-      </nav>
-
-      <Routes>
+     <Routes>
         <Route path="/" element={<Advertisement />} />
         <Route path="/carat" element={<Carat />} />
         <Route path="/collection" element={<Collection />} />
