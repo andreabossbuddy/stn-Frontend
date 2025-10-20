@@ -1,13 +1,13 @@
 import React from "react";
-import name from "../images/name.png";
-import pic1 from "../images/logo.png";
-import pic2 from "../images/Digicode.png";
-import pic3 from "../images/hbd.png";
-import pic4 from "../images/CXM.png";
-import icon from "../images/user.png";
+import name from "../assets/name.png";
+import pic1 from "../assets/logo.png";
+import pic2 from "../assets/Digicode.png";
+import pic3 from "../assets/hbd.png";
+import pic4 from "../assets/CXM.png";
+import icon from "../assets/user.png";
 import { Link } from "react-router-dom";
-import EmailForm from "./EmailForm";
-import React from "@vitejs/plugin-react";
+
+
 
 function Advertisement() {
   return (
