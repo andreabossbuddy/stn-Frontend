@@ -10,6 +10,7 @@ import tele from "../assets/tele.png";
 import pic1 from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import EmailForm from "./EmailForm";
+import React from "@vitejs/plugin-react";
 
 function Collection() {
   const products = [ 

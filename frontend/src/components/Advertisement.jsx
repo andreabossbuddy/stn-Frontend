@@ -7,6 +7,7 @@ import pic4 from "../images/CXM.png";
 import icon from "../images/user.png";
 import { Link } from "react-router-dom";
 import EmailForm from "./EmailForm";
+import React from "@vitejs/plugin-react";
 
 function Advertisement() {
   return (

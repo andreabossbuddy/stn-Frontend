@@ -8,6 +8,7 @@ import goyang from "../assets/goyang.png";
 import follow from "../assets/follow.png";
 import { Link } from "react-router-dom";
 import EmailForm from "./EmailForm";
+import React from "@vitejs/plugin-react";
 
 function Carat() {
   const comments = [
